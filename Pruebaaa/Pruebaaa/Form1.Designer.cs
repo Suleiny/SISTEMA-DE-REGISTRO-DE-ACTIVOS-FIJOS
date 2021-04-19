@@ -58,10 +58,11 @@
             this.Glabregistro.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.Glabregistro.ForeColor = System.Drawing.SystemColors.WindowText;
             this.Glabregistro.HoverState.Parent = this.Glabregistro;
-            this.Glabregistro.Location = new System.Drawing.Point(141, 527);
+            this.Glabregistro.Location = new System.Drawing.Point(106, 428);
+            this.Glabregistro.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Glabregistro.Name = "Glabregistro";
             this.Glabregistro.ShadowDecoration.Parent = this.Glabregistro;
-            this.Glabregistro.Size = new System.Drawing.Size(402, 45);
+            this.Glabregistro.Size = new System.Drawing.Size(302, 37);
             this.Glabregistro.TabIndex = 10;
             this.Glabregistro.Text = "Registrarse";
             this.Glabregistro.Click += new System.EventHandler(this.Glabregistro_Click);
@@ -78,10 +79,11 @@
             this.guna2Panel1.Controls.Add(this.passw);
             this.guna2Panel1.Controls.Add(this.Glabregistro);
             this.guna2Panel1.Controls.Add(this.usuar);
-            this.guna2Panel1.Location = new System.Drawing.Point(-3, -1);
+            this.guna2Panel1.Location = new System.Drawing.Point(-2, -1);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(634, 638);
+            this.guna2Panel1.Size = new System.Drawing.Size(476, 518);
             this.guna2Panel1.TabIndex = 12;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
@@ -89,9 +91,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(204, 73);
+            this.label1.Location = new System.Drawing.Point(153, 59);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(246, 38);
+            this.label1.Size = new System.Drawing.Size(204, 31);
             this.label1.TabIndex = 24;
             this.label1.Text = "Inicio de Secion ";
             // 
@@ -100,10 +103,11 @@
             this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
-            this.guna2PictureBox3.Location = new System.Drawing.Point(89, 175);
+            this.guna2PictureBox3.Location = new System.Drawing.Point(67, 142);
+            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
             this.guna2PictureBox3.ShadowDecoration.Parent = this.guna2PictureBox3;
-            this.guna2PictureBox3.Size = new System.Drawing.Size(46, 51);
+            this.guna2PictureBox3.Size = new System.Drawing.Size(34, 41);
             this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox3.TabIndex = 23;
             this.guna2PictureBox3.TabStop = false;
@@ -113,10 +117,11 @@
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
-            this.guna2PictureBox2.Location = new System.Drawing.Point(89, 304);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(67, 247);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.ShadowDecoration.Parent = this.guna2PictureBox2;
-            this.guna2PictureBox2.Size = new System.Drawing.Size(46, 51);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(34, 41);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox2.TabIndex = 22;
             this.guna2PictureBox2.TabStop = false;
@@ -124,9 +129,10 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(254, 483);
+            this.linkLabel1.Location = new System.Drawing.Point(190, 392);
+            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(179, 17);
+            this.linkLabel1.Size = new System.Drawing.Size(135, 13);
             this.linkLabel1.TabIndex = 21;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Se le olvido la contraseña?";
@@ -142,10 +148,11 @@
             this.GbontonInic.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold);
             this.GbontonInic.ForeColor = System.Drawing.Color.Black;
             this.GbontonInic.HoverState.Parent = this.GbontonInic;
-            this.GbontonInic.Location = new System.Drawing.Point(141, 425);
+            this.GbontonInic.Location = new System.Drawing.Point(106, 345);
+            this.GbontonInic.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.GbontonInic.Name = "GbontonInic";
             this.GbontonInic.ShadowDecoration.Parent = this.GbontonInic;
-            this.GbontonInic.Size = new System.Drawing.Size(402, 45);
+            this.GbontonInic.Size = new System.Drawing.Size(302, 37);
             this.GbontonInic.TabIndex = 20;
             this.GbontonInic.Text = "Iniciar";
             this.GbontonInic.Click += new System.EventHandler(this.GbontonInic_Click);
@@ -166,14 +173,16 @@
             this.passw.Font = new System.Drawing.Font("Times New Roman", 10.2F);
             this.passw.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.passw.HoverState.Parent = this.passw;
-            this.passw.Location = new System.Drawing.Point(141, 304);
+            this.passw.Location = new System.Drawing.Point(106, 247);
+            this.passw.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.passw.Name = "passw";
             this.passw.PasswordChar = '\0';
             this.passw.PlaceholderText = "*******************";
             this.passw.SelectedText = "";
             this.passw.ShadowDecoration.Parent = this.passw;
-            this.passw.Size = new System.Drawing.Size(402, 52);
+            this.passw.Size = new System.Drawing.Size(302, 42);
             this.passw.TabIndex = 18;
+            this.passw.TextChanged += new System.EventHandler(this.passw_TextChanged);
             // 
             // usuar
             // 
@@ -191,49 +200,55 @@
             this.usuar.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usuar.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.usuar.HoverState.Parent = this.usuar;
-            this.usuar.Location = new System.Drawing.Point(141, 175);
+            this.usuar.Location = new System.Drawing.Point(106, 142);
+            this.usuar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.usuar.Name = "usuar";
             this.usuar.PasswordChar = '\0';
             this.usuar.PlaceholderText = "Danielh@gmail.com";
             this.usuar.SelectedText = "";
             this.usuar.ShadowDecoration.Parent = this.usuar;
-            this.usuar.Size = new System.Drawing.Size(402, 52);
+            this.usuar.Size = new System.Drawing.Size(302, 42);
             this.usuar.TabIndex = 17;
+            this.usuar.TextChanged += new System.EventHandler(this.usuar_TextChanged);
             // 
             // guna2CirclePictureBox1
             // 
             this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(637, 127);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(478, 103);
+            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(393, 390);
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(295, 317);
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox1.TabIndex = 13;
             this.guna2CirclePictureBox1.TabStop = false;
+            this.guna2CirclePictureBox1.Click += new System.EventHandler(this.guna2CirclePictureBox1_Click);
             // 
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
-            this.guna2PictureBox1.Location = new System.Drawing.Point(752, 228);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(564, 185);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
-            this.guna2PictureBox1.Size = new System.Drawing.Size(201, 227);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(151, 184);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 14;
             this.guna2PictureBox1.TabStop = false;
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1053, 634);
+            this.ClientSize = new System.Drawing.Size(790, 515);
             this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.guna2CirclePictureBox1);
             this.Controls.Add(this.guna2Panel1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

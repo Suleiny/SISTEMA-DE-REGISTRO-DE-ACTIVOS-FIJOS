@@ -57,5 +57,20 @@ namespace Pruebaaa
             Form formulario = new Registro();
             formulario.Show();
         }
+
+        private void usuar_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void passw_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CirclePictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
